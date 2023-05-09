@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 EXPOSE 80
 
 # Define environment variable
-ENV NAME Worlde
+ENV NAME dfEnvName
 
 # Run app.py when the container launches
 CMD ["python", "python-flask-app.py"]
