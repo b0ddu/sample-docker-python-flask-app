@@ -27,4 +27,4 @@ jobs:
        with:
          context: .
          push: true
-         tags: ${{ secrets.DOCKERHUB_USERNAME }}/myapp:${{ steps.vars.outputs.tag }} , ${{ secrets.DOCKERHUB_USERNAME }}/myapp:latest
+         tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-flask:${{ steps.vars.outputs.tag }} , ${{ secrets.DOCKERHUB_USERNAME }}/python-flask:latest
