@@ -15,10 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    : # commenting builds on agent
-    : # - name: Build the Docker image
-    : #  run: docker build . --file Dockerfile --tag python-flask:$(date +%s)
-      
     - name: Login to DockerHub
       uses: docker/login-action@v2
       with:
